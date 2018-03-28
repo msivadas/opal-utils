@@ -1,0 +1,49 @@
+{
+  "name": "opal-logger",
+  "version": "0.0.1",
+  "description": "Creates and maintains loggers for Opal system and flows",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telligro/opal-logger.git"
+  },
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "check-types": "^7.3.0",
+    "config": "^1.30.0",
+    "winston": "^2.4.1"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "opal",
+    "opal-logger"
+  ],
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "author": "Madhav Sivadas <madhav.sivadas@telligro.com>",
+  "contributors": [
+    "Jaakko Suutarla <jaakko@suutarla.com>",
+    "Chris Saylor <cjsaylor@gmail.com>",
+    "djmax",
+    "gwhitelaw",
+    "Ivan Fraixedes",
+    "kgoerlitz",
+    "Akta3d",
+    "KamalAman"
+  ],
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-eslint-threshold": "^0.1.1",
+    "gulp-if": "^2.0.2"
+  },
+  "main": "lib/opallogger.js",
+  "scripts": {
+    "lint": "gulp lint"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
